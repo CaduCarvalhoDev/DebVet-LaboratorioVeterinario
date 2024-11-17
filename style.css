@@ -1,0 +1,1256 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #26534F;
+}
+
+html {
+    font-family: Krona One, sans-serif;
+    font-weight: 400;
+}
+
+html, body{
+    overflow-x: hidden !important; 
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.escuro {
+    width: 1,939px;
+    height: 151px;
+    top: -34px;
+    left: -19px;
+    gap: 0px;
+    opacity: 0.23px;
+    position: absolute;
+    opacity: 0.23;
+    background: #000;
+    filter: blur(22.850000381469727px);
+}
+
+.logo {
+    width: 305px;
+    height: 235px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    gap: 3rem;
+    color: #FFF;
+    top: 46px;
+    left: 1250px;
+    position: absolute;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.header1 {
+    height: 0vh;
+}
+
+.principal {
+    background-image: url(assets/image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.hero {
+    max-width: 1939px;
+    height: 120vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 6rem;
+    padding: 0rem 2rem;
+    margin: auto;
+}
+    
+
+.efeitos {
+    width: 737.32px;
+    height: 294.66px;
+    top: 127px;
+    left: 1059.74px;
+    angle: -8.93 deg;
+    position: absolute;
+    border-radius: 737.324px;
+    opacity: 0.6;
+    background: #D9D9D9;
+    filter: blur(77.0999984741211px);
+}
+
+h1 {
+    text-align: right;
+    font-size: 45px;
+    width: 621px; 
+    height: 245px; 
+    left: 1053px; 
+    top: 186px;  
+    font-weight: 400;
+    position: absolute;
+    word-wrap: break-word;
+}
+
+.subtitulo {
+    text-align: right;
+    width: 358px;
+    font-size: 20px;
+    height: 58px;
+    left: 1318px;
+    top: 504px;
+    font-weight: 400;
+    position: absolute;
+    word-wrap: break-word;
+}
+
+.hr {
+    width: 1903px;
+    height: 5px;
+    top: 1130px;
+    position: absolute;
+}   
+
+.quadrado {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 1125px;
+    left: 946px;
+    word-wrap: break-word;
+    overflow: auto;
+}
+
+.hero-conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.botao1 {
+    display: flex;
+    width: 294px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    top: 634px;
+    left: 1380px;
+    position: absolute;
+    border-radius: 10px;
+    border: 1px solid #26534F;
+    background: #F2F3F3;
+    box-shadow: 3px 4px 5px 0px rgba(0, 0, 0, 0.25);
+    color: #26534F;
+    text-align: center;
+    font-family: "Krona One";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.botao2 {
+    display: flex;
+    width: 294px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    top: 733px;
+    left: 1380px;
+    position: absolute;
+    border-radius: 10px;
+    border: 1px solid #000;
+    background: #F2F3F3;
+    box-shadow: 2px 4px 3.6px 0px rgba(0, 0, 0, 0.25);
+    color: #26534F;
+    text-align: center;
+    font-family: "Krona One";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.bemvindo { 
+    width: 1280px;
+    height: 120px;
+    top: 1249px;
+    left: 322px;
+    font-size: 48px;
+    position: absolute;
+    font-weight: 400;
+
+}
+
+.paragrafo {
+    width: 1280px;
+    height: 150px;
+    top: 1425px;
+    left: 322px;
+    position: absolute;
+    font-size: 20px;
+    word-wrap: break-word;
+}
+
+.servicos {
+    width: 1280px;
+    height: 50px;
+    top: 1715px;
+    left: 193px;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 400;
+    text-align: center;
+    text-underline-position: from-font;
+    position: absolute;
+
+}
+
+.cards-servicos {
+    width: 846px; height: 445px; left: 410px; top: 1822px; position: absolute; background: #D7D7D7; border-radius: 10px; border: 3px #26534F solid;
+}
+
+.parasitologia {
+    width: 270px; 
+    left: 525px; 
+    top: 1879px; 
+    position: absolute;
+    text-align: center; 
+    color: black; 
+    font-size: 20px;  
+    word-wrap: break-word;
+    font-weight: 400;
+    width: 325px;
+    height: 65px;
+    top: 1859px;
+    left: 498px;
+    border-radius: 10px;
+    border: 3px;
+    position: absolute;
+    display: flex;
+    padding: 20px 27px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    border: 3px solid #26534F;
+    background: #F2F3F3;
+
+}
+
+.citopatologia {
+    position: absolute;
+    left: 872px; 
+    top: 1879px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+    color: #000;
+    text-align: center;
+    font-size: 20px;
+    width: 321px;
+    height: 65px;
+    padding: 20px 25px;
+    top: 1859px;
+    left: 847px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    border: 3px solid #26534F;
+    background: #F2F3F3;
+}
+
+.biologia-molecular {
+    color: #000;
+    text-align: center;
+    font-family: "Krona One";
+    left: 872px; 
+    top: 1981px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: Krona One;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    position: absolute;
+
+    width: 321px;
+    height: 65px;
+    top: 1961px;
+    left: 847px;
+    padding: 20px 25px 20px 25px;
+    gap: 10px;
+    border-radius: 10px 0px 0px 0px;
+    border: 3px 0px 0px 0px;
+    opacity: 0px;
+    border-radius: 10px;
+    border: 3px solid #26534F;
+    background: #F2F3F3;
+}
+
+.hematologia {
+    width: 270px; 
+    left: 525px; 
+    top: 1981px; 
+    position: absolute; 
+    text-align: center; 
+    color: black; 
+    font-size: 20px; 
+    font-family: Krona One; 
+    font-weight: 400; 
+    word-wrap: break-word;
+
+    width: 325px;
+    height: 65px;
+    top: 1961px;
+    left: 498px;
+    padding: 20px 27px 20px 27px;
+    gap: 10px;
+    border-radius: 10px;
+    border: 3px solid #26534F;
+    background: #F2F3F3;
+}
+
+.microbiologia {
+    width: 173px;
+    height: 25px;
+    gap: 0px;
+    opacity: 0px;
+    position: absolute;
+    left: 872px; 
+    top: 2185px;
+    font-family: Krona One;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000;
+    text-align: center;
+    font-family: "Krona One";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    width: 321px;
+    height: 65px;
+    top: 2165px;
+    left: 847px;
+    padding: 20px 25px 20px 25px;
+    gap: 10px;
+    border-radius: 10px 0px 0px 0px;
+    border: 3px 0px 0px 0px;
+    opacity: 0px;
+
+    display: flex;
+    width: 321px;
+    height: 65px;
+    padding: 20px 25px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 3px solid #26534F;
+    background: #F2F3F3;
+}
+
+.hormônios {
+    color: #000;
+    text-align: center;
+    font-family: "Krona One";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    left: 872px; 
+    top: 2083px;
+    position: absolute;
+
+    width: 321px;
+    height: 65px;
+    top: 2063px;
+    left: 847px;
+    padding: 20px 25px 20px 25px;
+    gap: 10px;
+    border-radius: 10px 0px 0px 0px;
+    border: 3px 0px 0px 0px;
+    opacity: 0px;
+
+    display: flex;
+    width: 321px;
+    height: 65px;
+    padding: 20px 25px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 3px solid #26534F;
+    background: #F2F3F3;
+}
+
+.imunologia {
+    color: #000;
+    text-align: center;
+    font-family: "Krona One";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    left: 525px; 
+    top: 2083px;
+    position: absolute;
+
+    width: 325px;
+    height: 65px;
+    top: 2063px;
+    left: 498px;
+    padding: 20px 27px 20px 27px;
+    gap: 10px;
+    border-radius: 10px 0px 0px 0px;
+    border: 3px 0px 0px 0px;
+    opacity: 0px;
+
+    display: flex;
+    width: 325px;
+    height: 65px;
+    padding: 20px 27px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 3px solid #26534F;
+    background: #F2F3F3;
+}
+
+.perfis {
+    color: #000;
+    text-align: center;
+    font-family: "Krona One";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    left: 525px; 
+    top: 2185px;
+    position: absolute;
+
+    width: 321px;
+    height: 65px;
+    top: 2165px;
+    left: 498px;
+    padding: 20px 25px 20px 25px;
+    gap: 10px;
+    border-radius: 10px 0px 0px 0px;
+    border: 3px 0px 0px 0px;
+    opacity: 0px;
+
+    display: flex;
+    width: 321px;
+    height: 65px;
+    padding: 20px 25px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 3px solid #26534F;
+    background: #F2F3F3;
+}
+
+.medico {
+    width: 482px;
+    height: 502px;
+    flex-shrink: 0;
+    top: 1765px;
+    left: 1136px;
+    position: absolute;
+}
+
+.pegadas {
+    width: 311.177px;
+    height: 449.332px;
+    transform: rotate(5.429deg);
+    flex-shrink: 0;
+    top: 2125px;
+    left: 1534.51px;
+    position: absolute;
+}
+
+.diferenciais {
+    width: 1280px;
+    height: 50px;
+    top: 2395px;
+    left: 452px;
+    position: absolute;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    text-underline-position: from-font;
+    font-weight: 400;
+}
+
+.card-diferencial {
+    width: 846px;
+    height: 445px;
+    top: 2508px;
+    left: 669px;
+    position: absolute;
+    border-radius: 10px;
+    border: 3px solid #26534F;
+    background: #D7D7D7;
+}
+
+.laudo {
+    width: 591px;
+    height: 25px;
+    top: 2559px;
+    left: 784px;
+    color: #000;
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+
+    width: 646px;
+    height: 65px;
+    top: 2539px;
+    left: 757px;
+    border-radius: 10px;
+    border: 3px solid #26534F;
+    background: #F2F3F3;
+}
+
+.clinicas {
+    width: 591px;
+    height: 50px;
+    top: 2649px;
+    left: 784px;
+    gap: 0px;
+    opacity: 0px;
+    color: #000;
+    text-align: center;
+    font-family: "Krona One";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+
+    width: 646px;
+    height: 71px;
+    top: 2638px;
+    left: 756px;
+    gap: 0px;
+    border-radius: 10px 0px 0px 0px;
+    border: 3px 0px 0px 0px;
+    opacity: 0px;
+    border-radius: 10px;
+    border: 3px solid #26534F;
+    background: #F2F3F3;
+}
+
+.anos {
+    width: 591px;
+    height: 50px;
+    top: 2753px;
+    left: 786px;
+    gap: 0px;
+    opacity: 0px;
+    color: #000;
+    text-align: center;
+    font-family: "Krona One";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+
+    width: 646px;
+    height: 69px;
+    top: 2743px;
+    left: 757px;
+    gap: 0px;
+    border-radius: 10px 0px 0px 0px;
+    border: 3px 0px 0px 0px;
+    opacity: 0px;
+    border-radius: 10px;
+    border: 3px solid #26534F;
+    background: #F2F3F3;
+}
+
+.controlab {
+    width: 591px;
+    height: 50px;
+    top: 2856px;
+    left: 784px;
+    gap: 0px;
+    opacity: 0px;
+    position: absolute;
+    color: #000;
+    text-align: center;
+    font-family: "Krona One";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    width: 646px;
+    height: 71px;
+    top: 2845px;
+    left: 757px;
+    gap: 0px;
+    border-radius: 10px 0px 0px 0px;
+    border: 3px 0px 0px 0px;
+    opacity: 0px;
+    border-radius: 10px;
+    border: 3px solid #26534F;
+    background: #F2F3F3;
+}
+
+.medica {
+    width: 503px;
+    height: 527px;
+    top: 2447px;
+    left: 344px;
+    gap: 0px;
+    opacity: 0px;
+    position: absolute;
+}
+
+.depoimentos {
+    width: 1280px;
+    height: 50px;
+    top: 3102px;
+    left: 320px;
+    position: absolute;
+    font-weight: 400;
+    color: #26534F;
+    text-align: center;
+    font-family: "Krona One";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card-clientes {
+    width: 413px;
+    height: 252px;
+    top: 3242px;
+    left: 537px;
+    gap: 0px;
+    border-radius: 10px 0px 0px 0px;
+    border: 3px 0px 0px 0px;
+    opacity: 0px;
+    border-radius: 10px;
+    border: 3px solid #26534F;
+    background: #F2F3F3;
+    box-shadow: 6px 10px 11.5px 2px rgba(0, 0, 0, 0.25);
+    position: absolute;
+}
+.c1nome {
+    width: 367px;
+    height: 30px;
+    top: 3308px;
+    left: 560px;
+    gap: 0px;
+    opacity: 0px;
+    color: #26534F;
+    font-family: "Krona One";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+
+}
+
+.c1texto {
+    width: 367px;
+    height: 75px;
+    top: 3368px;
+    left: 560px;
+    gap: 0px;
+    opacity: 0px;
+    color: #26534F;
+    font-family: "Krona One";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+}
+
+.c1foto {
+    width: 100px;
+    height: 100px;
+    top: 3222px;
+    left: 800px;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 100px;
+    position: absolute;
+}
+
+.card-clientes2 {
+    width: 413px;
+    height: 252px;
+    top: 3242px;
+    left: 970px;
+    gap: 0px;
+    border-radius: 10px 0px 0px 0px;
+    border: 3px 0px 0px 0px;
+    opacity: 0px;
+    border-radius: 10px;
+    border: 3px solid #26534F;
+    background: #F2F3F3;
+    box-shadow: 5px 4px 5.5px 3px rgba(0, 0, 0, 0.25);
+    position: absolute;
+}
+
+.c2nome {
+    width: 367px;
+    height: 30px;
+    top: 3308px;
+    left: 993px;
+    gap: 0px;
+    opacity: 0px;
+    color: #26534F;
+    font-family: "Krona One";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+}
+
+.c2texto {
+    width: 367px;
+    height: 100px;
+    top: 3368px;
+    left: 993px;
+    gap: 0px;
+    opacity: 0px;
+    color: #26534F;
+    font-family: "Krona One";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+}
+
+.c2foto {
+    width: 100px;
+    height: 100px;
+    top: 3222px;
+    left: 1233px;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 100px;
+    position: absolute;
+}
+
+.card-clientes3 {
+    width: 413px;
+    height: 252px;
+    top: 3544px;
+    left: 537px;
+    gap: 0px;
+    border-radius: 10px 0px 0px 0px;
+    border: 3px 0px 0px 0px;
+    opacity: 0px;
+    border-radius: 10px;
+    border: 3px solid #26534F;
+    background: #F2F3F3;
+    box-shadow: 6px 4px 6.3px 2px rgba(0, 0, 0, 0.25);
+    position: absolute;
+}
+
+.c3nome {
+    width: 367px;
+    height: 30px;
+    top: 3610px;
+    left: 560px;
+    gap: 0px;
+    opacity: 0px;
+    color: #26534F;
+    font-family: "Krona One";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+}
+
+.c3texto {
+    width: 367px;
+    height: 75px;
+    top: 3670px;
+    left: 560px;
+    gap: 0px;
+    opacity: 0px;
+    color: #26534F;
+    font-family: "Krona One";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+}
+
+.c3foto {
+    width: 100px;
+    height: 100px;
+    top: 3524px;
+    left: 800px;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 100px;
+    position: absolute;
+}
+
+.card-clientes4 {
+    width: 413px;
+    height: 252px;
+    top: 3544px;
+    left: 970px;
+    gap: 0px;
+    border-radius: 10px 0px 0px 0px;
+    border: 3px 0px 0px 0px;
+    opacity: 0px;
+    border-radius: 10px;
+    border: 3px solid #26534F;
+    background: #F2F3F3;
+    box-shadow: 6px 4px 6.7px 6px rgba(0, 0, 0, 0.25);
+    position: absolute;
+}
+
+.c4nome {
+    width: 367px;
+    height: 30px;
+    top: 3610px;
+    left: 993px;
+    gap: 0px;
+    opacity: 0px;
+    color: #26534F;
+    font-family: "Krona One";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+}
+
+.c4texto {
+    width: 367px;
+    height: 75px;
+    top: 3670px;
+    left: 993px;
+    gap: 0px;
+    opacity: 0px;
+    color: #26534F;
+    font-family: "Krona One";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+}
+
+.c4foto {
+    width: 100px;
+    height: 100px;
+    top: 3524px;
+    left: 1233px;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 100px;
+    position: absolute;
+}
+
+.card-clientes5 {
+    width: 413px;
+    height: 252px;
+    top: 3846px;
+    left: 537px;
+    gap: 0px;
+    border-radius: 10px 0px 0px 0px;
+    border: 3px 0px 0px 0px;
+    opacity: 0px;
+    border-radius: 10px;
+    border: 3px solid #26534F;
+    background: #F2F3F3;
+    box-shadow: 6px 4px 6.3px 2px rgba(0, 0, 0, 0.25);
+    position: absolute;
+}
+
+.c5nome {
+    width: 367px;
+    height: 30px;
+    top: 3912px;
+    left: 560px;
+    gap: 0px;
+    opacity: 0px;
+    color: #26534F;
+    font-family: "Krona One";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+}
+
+.c5texto {
+    width: 367px;
+    height: 75px;
+    top: 3972px;
+    left: 560px;
+    gap: 0px;
+    opacity: 0px;
+    color: #26534F;
+    font-family: "Krona One";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+}
+
+.c5foto {
+    width: 100px;
+    height: 100px;
+    top: 3826px;
+    left: 800px;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 100px;
+    position: absolute;
+}
+
+.card-clientes6 {
+    width: 413px;
+    height: 252px;
+    top: 3846px;
+    left: 970px;
+    gap: 0px;
+    border-radius: 10px 0px 0px 0px;
+    border: 3px 0px 0px 0px;
+    opacity: 0px;
+    border-radius: 10px;
+    border: 3px solid #26534F;
+    background: #F2F3F3;
+    box-shadow: 6px 4px 6.7px 6px rgba(0, 0, 0, 0.25);
+    position: absolute;
+}
+
+.c6nome {
+    width: 367px;
+    height: 30px;
+    top: 3912px;
+    left: 993px;
+    gap: 0px;
+    opacity: 0px;
+    color: #26534F;
+    font-family: "Krona One";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+}
+
+.c6texto {
+    width: 367px;
+    height: 75px;
+    top: 3972px;
+    left: 993px;
+    gap: 0px;
+    opacity: 0px;
+    color: #26534F;
+    font-family: "Krona One";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+}
+
+.c6foto {
+    width: 100px;
+    height: 100px;
+    top: 3826px;
+    left: 1233px;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 100px;
+    position: absolute;
+}
+
+.foots {
+    width: 311.18px;
+    height: 449.33px;
+    top: 4010.33px;
+    left: 107px;
+    gap: 0px;
+    opacity: 0px;
+    angle: 38.65 deg;
+    transform: rotate(-38.645deg);
+    position: absolute;
+}
+
+.titulo-contato {
+    width: 1280px;
+    height: 50px;
+    top: 4194px;
+    left: 310px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    position: absolute;
+}
+
+.cuida {
+    width: 630px;
+    height: 100px;
+    top: 4296px;
+    left: 645px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    position: absolute;
+}
+
+.botao-contato {
+    width: 433px;
+    height: 59px;
+    top: 4461px;
+    left: 743px;
+    gap: 2px;
+    display: flex;
+    align-items: center;
+    position: absolute; 
+
+    width: 374px;
+    height: 30px;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    position: absolute;
+
+    color: #26534F;
+    text-align: center;
+    font-family: "Krona One";
+
+    width: 433px;
+    height: 59px;
+    top: 4461px;
+    left: 743px;
+    gap: 10px;
+
+    border-radius: 10px;
+    border: 2px solid #26534F;
+    background: #FFF;
+    box-shadow: 6px 8px 8.1px 0px rgba(0, 0, 0, 0.25);
+}
+
+.titulo-loc {
+    width: 1280px;
+    height: 40px;
+    top: 4594px;
+    left: 310px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    position: absolute;
+}
+
+.loc {
+    width: 579px;
+    height: 25px;
+    top: 4675px;
+    left: 680px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    position: absolute;
+}
+
+.img-loc {
+    width: 633px;
+    height: 45px;
+    top: 4664px;
+    left: 650px;
+    padding: 10px 0px 0px 0px;
+    gap: 10px;
+    border-radius: 10px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    border-radius: 10px;
+    border: 1px solid #26534F;
+    position: absolute;
+}
+
+.mapa {
+    width: 846px;
+    height: 335px;
+    top: 4750px;
+    left: 535px;
+    position: absolute;
+    border-radius: 10px;
+    border: 3px solid #26534F;
+    background: #D9D9D9;
+}
+
+.animais {
+    width: 1920px;
+    height: 623px;
+    top: 4966px;
+    position: absolute;
+}
+
+.barra {
+    width: 1920px;
+    height: 150px;
+    top: 5553px;
+    background: #26534F;
+    position: absolute;
+}
+
+.logo-footer {
+    width: 165.89px;
+    height: 150px;
+    top: 5553px;
+    left: 43px;
+    position: absolute;
+}
+
+.t-direitos{
+    width: 413px;
+    height: 25px;
+    top: 5630px;
+    left: 350px;
+    color: #FFF;
+    text-align: center;
+    font-family: "Krona One";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    display: flex;
+}
+
+.t-arroba {
+    width: 413px;
+    height: 25px;
+    top: 5630px;
+    left: 830px;
+    color: #FFF;
+    text-align: center;
+    font-family: "Krona One";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    display: flex;
+}
+
+.t-priv {
+    width: 413px;
+    height: 25px;
+    top: 5630px;
+    left: 1310px;
+    color: #FFF;
+    text-align: center;
+    font-family: "Krona One";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    display: flex;
+}
+
+.c {
+    width: 20px;
+    height: 20px;
+    top: 5620px;
+    left: 300px;
+    position: absolute;
+}
+
+.arroba {
+    width: 20px;
+    height: 20px;
+    top: 5620px;
+    left: 780px;
+    position: absolute;
+}
+
+.cadeado {
+    width: 20px;
+    height: 20px;
+    top: 5620px;
+    left: 1270px;
+    position: absolute;
+}
+
+.insta {
+    width: 35px;
+    height: 35px;
+    top: 5620px;    
+    left: 1650px;
+    position: absolute;
+}
+
+.zapzap {
+    width: 35px;
+    height: 35px;
+    top: 5620px;    
+    left: 1710px;
+    position: absolute;
+}
+
+.email {
+    width: 35px;
+    height: 35px;
+    top: 5620px;    
+    left: 1770px;
+    position: absolute;
+}
